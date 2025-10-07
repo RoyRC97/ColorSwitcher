@@ -1,0 +1,37 @@
+/* Estilos de index.html*/
+
+        button:hover {
+            background-color: #e0e0e0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+/*Bordes redondeados a los botones*/
+        button {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        /* Estilos de los botones*/
+        button:active {
+            background-color: #d0d0d0;
+        }
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
